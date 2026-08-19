@@ -1,0 +1,23 @@
+{
+  "nodeId": "provider.example",
+  "next_update": "2026-08-20T19:00:38.710437931Z",
+  "catalogs": [
+    {
+      "catalogId": "provider.example/electronics",
+      "entryVersion": 1,
+      "catalogType": "REGULAR",
+      "isActive": true,
+      "baseline": {
+        "version": 1,
+        "url": "http://localhost:8081/catalog/electronics/v1.json",
+        "size": 699,
+        "digest": "sha-256:ddcbb258608d0fe2ab6eab0e2eeb08f58a4b0237bc0deecb91cedfb8714d97b9"
+      },
+      "signature": {
+        "keyId": "provider-key-1",
+        "canonicalization": "JCS",
+        "value": "rttheH3klzA5jAGm0Zi5J_OLFOZKELNe2pl4LVhgifMgjEBGJGTdrfOuJTanSdnGmN1fAmj3JW2TxJi2WyrNCA"
+      }
+    }
+  ]
+}

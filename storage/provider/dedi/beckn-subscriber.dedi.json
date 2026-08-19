@@ -1,0 +1,20 @@
+{
+  "record_name": "beckn-subscriber",
+  "details": {
+    "subscriber_id": "provider.example",
+    "url": "http://localhost:8081",
+    "type": "BPP",
+    "domain": "retail",
+    "countries": [
+      "IND"
+    ],
+    "signing_public_key": "MNXKo5WNLtQ2P6hrB57dAf3TQYOulUdao4LJZRdOlEA"
+  },
+  "meta": {
+    "catalog_index_urls": [
+      {
+        "url": "http://localhost:8081/catalog/index.json"
+      }
+    ]
+  }
+}

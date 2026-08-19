@@ -1,0 +1,11 @@
+keys/
+*.key
+*.pem
+
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+
+.DS_Store

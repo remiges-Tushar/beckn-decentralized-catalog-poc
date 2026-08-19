@@ -1,0 +1,27 @@
+{
+  "dedi_version": "0.1",
+  "type": "dedi-manifest",
+  "domain": "provider.example",
+  "keys": [
+    {
+      "kid": "provider-key-1",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "MNXKo5WNLtQ2P6hrB57dAf3TQYOulUdao4LJZRdOlEA"
+    }
+  ],
+  "updated_at": "2026-08-19T19:00:38.70713611Z",
+  "next_update": "2026-08-20T19:00:38.70713611Z",
+  "files": [
+    {
+      "registry": "beckn-subscriber",
+      "url": "http://localhost:8081/dedi/beckn-subscriber.dedi.json",
+      "digest": "sha-256:99978f523525d7746619eaf1ac358f3ee6998e744f87b35e08e27bf288e42927"
+    }
+  ],
+  "proof": {
+    "verification_method": "provider-key-1",
+    "canonicalization": "JCS",
+    "jws": "ERInggO-CynyXkG-Om7fbHB5RqFUz_P7ClFazdcdF10wWxb5k-MBn1vsVqY0lrDj1w6WyMjrAsnOSGFNnYsxCg"
+  }
+}

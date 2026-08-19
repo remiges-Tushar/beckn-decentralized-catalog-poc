@@ -1,0 +1,29 @@
+{
+  "catalogId": "provider.example/electronics",
+  "version": 1,
+  "next_update": "2026-08-20T19:00:38.710125305Z",
+  "catalog": {
+    "id": "provider.example/electronics",
+    "descriptor": {
+      "name": "Example Electronics"
+    },
+    "resources": [
+      {
+        "id": "provider.example/laptop-001",
+        "descriptor": {
+          "name": "Example Laptop"
+        },
+        "resourceAttributes": {
+          "brand": "Example",
+          "inStock": true
+        }
+      }
+    ],
+    "offers": []
+  },
+  "signature": {
+    "keyId": "provider-key-1",
+    "canonicalization": "JCS",
+    "value": "N12Cy1jeMKJV23Zo1kbaSwiIb9MezAC1jq-NamVotWpeFpJx9LQjloNDyTC4QYWB7NTzMMKP3oEDeV6NTbU_BA"
+  }
+}

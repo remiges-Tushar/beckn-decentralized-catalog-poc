@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-19T19:00:51.349233643Z",
+  "nodes": [
+    {
+      "subscriber_id": "provider.example",
+      "url": "http://localhost:8081",
+      "domain": "retail",
+      "type": "BPP",
+      "updated_at": "2026-08-19T19:00:51.34922748Z"
+    }
+  ],
+  "catalogs": [
+    {
+      "node_id": "provider.example",
+      "catalog_id": "provider.example/electronics",
+      "catalog_type": "REGULAR",
+      "version": 1,
+      "url": "http://localhost:8081/catalog/electronics/v1.json",
+      "digest": "sha-256:ddcbb258608d0fe2ab6eab0e2eeb08f58a4b0237bc0deecb91cedfb8714d97b9"
+    }
+  ]
+}
